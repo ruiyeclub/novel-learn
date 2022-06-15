@@ -11,7 +11,7 @@ public class CacheConsts {
     /**
      * 本项目Redis缓存前缀
      */
-    public static final String REDIS_CATHE_PREFIX = "Cathe::Novel::";
+    public static final String REDIS_CACHE_PREFIX = "Cathe::Novel::";
 
     /**
      * Caffeine缓存管理器
