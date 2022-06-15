@@ -1,0 +1,25 @@
+spring:
+  # 将所有数字转为 String 类型返回，避免前端数据精度丢失的问题
+  jackson:
+    generator:
+      write-numbers-as-strings: true
+  servlet:
+    # 上传文件最大大小
+    multipart:
+      max-file-size: 5MB
+  application:
+    name: novel
+
+server:
+  port: 8888
+
+# 项目配置
+novel:
+  # 跨域配置
+  cors:
+    # 允许跨域的域名
+    allow-origins:
+      - http://localhost:1024
+      - http://localhost:8080
+
+
